@@ -48,7 +48,7 @@ function App() {
     {
       pageLink: '/faq',
       view: FAQ,
-      displayName: 'FAQ',
+      displayName: 'FAQs',
       animationDelayForNavbar: 0.6,
     },
   ];
@@ -78,6 +78,8 @@ function App() {
           )}
         />
       </Router>
+
+
 
       <footer className="fadeInUp" style={{animationDelay: '2s'}}>
         {/* <img
